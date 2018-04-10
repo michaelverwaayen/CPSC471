@@ -28,3 +28,5 @@ My understanding on how the program should be.
 3.if a) then perform user login authentification based on query2 and show info based on query1.
 4. if b) perform user login authentification based on query5 then show info based on query6-query8 clerance level.
 5. if c) perform admin login authentification based on query4 then update info based on query3.
+
+Admins are people who have access to the complete data base they log into the db itself not through our website for example. Jorge can access the db cause he made it therefore he is an admin.
