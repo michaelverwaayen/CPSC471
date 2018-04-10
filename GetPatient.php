@@ -42,7 +42,8 @@ if(!$link)
 				$search = $_GET["Search"];
 				$search = mysqli_real_escape_string($link,$search);
 				
-				$query = "JORGE"
+				$query = SELECT USER ucredentials FROM HEALTHCARE_SYSTEM_USER AS USER WHERE USER.ucredentials = @username AND USER.upassword = @PASSWORD"
+				
 				
 				if(mysqli_query($link,$query))
 				{
@@ -69,15 +70,12 @@ if(!$link)
 			}
 			else
 			{
-				$query = //JORGE 
-				$result = mysqli_query($link, $query);
+				$query2 = SELECT * FROM HEALTHCARE_SYSTEM_USER AS USER WHERE USER.ucredentials = “SELECT USER.ucredentials FROM HEALTHCARE_SYSTEM_USER AS USER WHERE USER. ucredentials = @USERNAME  AND USER.upassword = @PASSWORD”.
+				$result = mysqli_query($link, $query2);
 				
 				while($ROW = mysqli_fetch_assoc($result))
 				{
 					echo "<tr>"
-					
-					//ONCE AGAIN NEED JORGE 
-					//OUT PUT ALL USERS 
 					
 					
 					echo "</tr>"
