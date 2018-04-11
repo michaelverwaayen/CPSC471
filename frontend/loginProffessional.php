@@ -37,7 +37,7 @@ if(isset($_POST['submit']))
 					$SESSION['u_id'] = $row['ucredentials'];
 					$SESSION['u_pass'] = $row['upassword'];
 				//WILL NEED TO CHANGE SOON WHEN ON DB 
-					header("Location: file:///C:/Users/Mike/Desktop/CPSC/457A4/loginsuccessful.php");
+					header("Location: file:///C:/Users/Mike/Desktop/CPSC/457A4/loginsuccessfulP.php");
 					
 			}
 
