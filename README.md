@@ -30,3 +30,13 @@ My understanding on how the program should be.
 5. if c) perform admin login authentification based on query4 then update info based on query3.
 
 Admins are people who have access to the complete data base they log into the db itself not through our website for example. Jorge can access the db cause he made it therefore he is an admin.
+
+
+What is left???
+Currently if you look at the front end u are taken to a page that just says login successful if the person exists ...
+What we have to do for Demo is simply link those pages with our queries which shouldnt be super hard as ive done them already 
+the doctor login and nurse login ect are queries that show all patients that they currently have...
+
+All we do is check the credentials of who is currently logged in and outputthe correct chart 
+
+Cant test without running server
