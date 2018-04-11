@@ -7,7 +7,7 @@ if(!$link)
 }
 if(isset($_POST['submit']))
 {
-	$uid = $_post['uid'];
+	$username = $_post['username'];
 	$password = $_post['password'];
 	
 	if(empty($uid) || empty($password))
@@ -36,6 +36,7 @@ if(isset($_POST['submit']))
 
 					$SESSION['u_id'] = $row['ucredentials'];
 					$SESSION['u_pass'] = $row['upassword'];
+					
 			}
 
 		}
