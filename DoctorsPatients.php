@@ -5,7 +5,7 @@ if(!$link)
 	die('Cannot connect'. mysqli_error($link);
 	
 }
-$query = "SELECT  @uacredential, @drug, @name FROM HEALTHCARE_SYSTEM_USER AS USER WHERE DOCTOR.ID = USER.DID";
+$query = =”SELECT  USER. * FROM USER.HEALTHCARE_SYSTEM_USER AS USER, DOCTOR AS D, DOCTORS_HAVE AS H WHERE $query5=D.hpclearance AND USER.ucredentials=H.ucredentials  AND H.dcredentials =D.dcredentials;”
 $result = mysqli_query($link, $query);
 
 if(mysqli_num_rows($result) > 0) 
