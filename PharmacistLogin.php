@@ -15,11 +15,15 @@ $result = mysqli_query($link, $query);
 if( mysqli_num_rows($result) > 0 )
 {
 	//then u wanna show drug record with while loop 
+	echo "<table border='1'>";
 	while($row = mysqli_fetch_assoc($result))
 	{
-	echo "id: " . $row["uacredential"] . "Drugs " . $row["drugrecord"] . "<br>";
+		echo "<tr>";
+		echo "<td align='center'> id: " . $row["uacredential"] . "Drugs " . $row["drugrecord"] . "<br </td>>";
+		echo "<tr>";
 		
 	}
+	echo "</table>";
 	
 }
 else 
