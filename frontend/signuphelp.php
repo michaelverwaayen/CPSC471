@@ -30,9 +30,11 @@ if(isset($_POST['submit']))
 			if($row = mysql_fetch_assoc($result))
 			{
 
-					$SESSION['u_id'] = $row['ucredentials'];
-					$SESSION['u_pass'] = $row['upassword'];
+					$SESSION['username'] = $row['ucredentials'];
+					$SESSION['password'] = $row['upassword'];
 				//Send to a new pg 
+				//Once again needs to change asap 
+					header("Location: file:///C:/Users/Mike/Desktop/CPSC/457A4/loginsuccessful.php");
 			}
 
 		}
