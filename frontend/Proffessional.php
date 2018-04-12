@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> HealthCare Professionals </title>
-		<link rel = "stylesheet" type="text/css" href="style.css" >
+		<title> HealthCare DB</title>
+		<link rel = "stylesheet" type="text/css" href="../style.css" >
 	</head>
 	
 	<body>
@@ -14,13 +14,13 @@
 				</ul>
 				<div class="nav-login">
 					<a href="Signup.php">Patient</a>					
-					<a href="Proffessional.php">Proffessional </a> 
+					<a href="Proffessional.php">Professional </a> 
 				</div>
 			</div>
 			</nav>
 		<section class="main-container">
 			<div class="main-wrapper">
-				<p>Welcome HealthCare Proffesionals Please login with the correct user name and password to review your patients records  </p>
+				<p>Welcome, HealthCare Professionals. Please log in with the correct user name and password to review your patient records.  </p>
 				<h2> Sign Up </h2>
 				<form class="LoginProffessional" action="includes/loginProffessional.php">
 						<input type = "text" name="uid" placeholder="Username">

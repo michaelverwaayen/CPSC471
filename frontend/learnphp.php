@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> HealthCare </title>
-		<link rel = "stylesheet" type="text/css" href="style.css" >
+		<title> HealthCare DB</title>
+		<link rel = "stylesheet" type="text/css" href="../style.css" >
 	</head>
 	
 	<body>
@@ -14,7 +14,7 @@
 				</ul>
 				<div class="nav-login">
 					<a href="Signup.php">Patient </a>
-					<a href="Proffessional.php"> Proffessional </a>
+					<a href="Proffessional.php"> Professional </a>
 					
 				</div>
 			</div>
@@ -22,12 +22,12 @@
 		</header>
 		<section class="main-container">
 			<div class="main-wrapper">
+				<h2><img src="images/hdb.png" alt="HealthCare DB"> </h2>
 				<h2> Mission Statement </h2>
-				<h3> Healthcare is a database management system focussed on access control because <br>
-				our patrons information is what matters most to us.  </h3>
-				<h4> We protect our users information by making sure that only the physicians or healthcare workers <br>
-					directly in contact with you have any access to your records. This ensures that no one not qualified <br>
-					or not helping you will see your information, keeping your private medically history to yourself.<br>
+				<h3> HealthCare DB is a database management system with a strong focus on access control, because we care about patient security. <br><br>
+				 We ensure that only the healthcare workers
+					directly in contact with you have any access to your records. Your private medical history is safe with us!<br><br>
+					Please use the links in the header bar to log in.</h3>
 			</div>
 		</section>
 		

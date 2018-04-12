@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> HealthCare </title>
-		<link rel = "stylesheet" type="text/css" href="style.css" >
+		<title> HealthCare DB</title>
+		<link rel = "stylesheet" type="text/css" href="../style.css" >
 	</head>
 	
 	<body>
@@ -14,7 +14,7 @@
 				</ul>
 				<div class="nav-login">
 					<a href="Signup.php">Patient </a>	
-					<a href="Proffessional.php"> Proffessional </a>
+					<a href="Proffessional.php"> Professional </a>
 				</div>
 			</div>
 			</nav>

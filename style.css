@@ -6,8 +6,18 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
+@font-face {
+	font-family: 'YKS';
+	src: url('/YanoneKaffeesatz-Light.otf');
+}
+
+@font-face {
+	font-family: 'FranklinGothic';
+	src: url('/FRAMDCN.TTF');
+}
+
 html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
@@ -20,7 +30,7 @@ footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
     margin:0;
     padding:0;
-    border:0;
+    border:25px;
     outline:0;
     font-size:100%;
     vertical-align:baseline;
@@ -30,6 +40,7 @@ time, mark, audio, video {
 body {
     line-height:1;
 }
+
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section { 
@@ -109,6 +120,9 @@ MY CODE
 .main-wrapper {
 	margin: 0 auto;
 	width: 1000px;
+	font-family: Yanone Kaffeesatz Light;
+	font-size: 22px;
+	text-align: center;
 }
 body {
 	background-color: #fff
@@ -181,14 +195,23 @@ header nav ul li a{
 }
 
 
+
 .main-container {
 	padding-top: 40px;
 }
 .main-container  h2 {
-	font-family: arial;
-	font-size: 40px;
+	font-family: Franklin Gothic, 'FranklinGothic';
+	font-size: 60px;
 	color: #111;
 	line-height: 50px;
+	text-align: center;
+}
+
+.main-container  h3 {
+	font-family: Yanone Kaffeesatz Light, 'YKS';
+	font-size: 22px;
+	line-height: 28px;
+	color: #111;
 	text-align: center;
 }
 /*/////signup*/
