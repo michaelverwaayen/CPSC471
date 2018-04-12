@@ -4,6 +4,7 @@
 	<title> Search PHARMA</title>
 	<meta http-equiv="Content-Type" content = "test/html; charset=utf-8" /> 
 </head>
+	<a href = "Location: loginsuccessfulP.php"> HOME PAGE </a>
 <br>
 </html>
 <form action="search.php" method="GET">
