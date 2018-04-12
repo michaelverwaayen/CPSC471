@@ -13,7 +13,7 @@ if(!$link)
 	while($ROW = mysqli_fetch_assoc($result))
 	{
 		echo "<tr>";
-		echo "<td align='center'> Name:" . HEALTCHCARE_SYSTEM_USER.ucredentials . " DrugRecord: " . HEALTHCARE_SYSTEM_USER.drugrecord . " Diag Record: " . HEALTHCARE_SYSTEM_USER.diagrecord . "<br> </td>"; 						
+		echo "<td align='center'> Name:" . HEALTHCARE_SYSTEM_USER.ucredentials . " DrugRecord: " . HEALTHCARE_SYSTEM_USER.drugrecord . " Diag Record: " . HEALTHCARE_SYSTEM_USER.diagrecord . "<br> </td>"; 						
 		echo "</tr>";				
 					
 	}
