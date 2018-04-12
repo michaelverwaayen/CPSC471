@@ -22,7 +22,7 @@
 			<div class="main-wrapper">
 				<p>Thank you for wanting to register. Please provide information below.  </p>
 				<h2> Sign Up </h2>
-				<form class="LoginRegular" action="includes/signuphelp.php">
+				<form class="LoginRegular" action="/signuphelp.php">
 						<input type = "text" name="uid" placeholder="Username">
 						<br>
 						<input type = "password" name="pwd" placeholder="password">

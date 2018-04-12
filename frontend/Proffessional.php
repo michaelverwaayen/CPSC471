@@ -22,7 +22,7 @@
 			<div class="main-wrapper">
 				<p>Welcome, HealthCare Professionals. Please log in with the correct user name and password to review your patient records.  </p>
 				<h2> Sign Up </h2>
-				<form class="LoginProffessional" action="includes/loginProffessional.php">
+				<form class="LoginProffessional" action="loginProffessional.php">
 						<input type = "text" name="uid" placeholder="Username">
 						<br>
 						<input type = "password" name="pwd" placeholder="password">
